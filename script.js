@@ -1,39 +1,39 @@
 const familyTree = {
-  name: "Daddy",
-  spouse: "Mummy",
+  name: "Grandfather",
+  spouse: "Grandmother",
   children: [
     {
-      name: "Bobby Alexx",
-      spouse: "Ann cleine joseph",
+      name: "Son1",
+      spouse: "Spouse1",
       children: [
-        { name: "Alex", gender: "male" },
-        { name: "Nikkitha", gender: "female" },
-        { name: "Thamnanna", gender: "female" }
+        { name: "Son1", gender: "male" },
+        { name: "Daughter1", gender: "female" },
+        { name: "Daughter2", gender: "female" }
       ]
     },
     {
-      name: "Kishore",
-      spouse: "Julie",
+      name: "Son2",
+      spouse: "Spouse2",
       children: [
-        { name: "Alex Geo kishore", gender: "male" },
-        { name: "Ann Rita kishore", gender: "female" }
+        { name: "Son1", gender: "male" },
+        { name: "Daugther1", gender: "female" }
       ]
     },
     {
-      name:"Rajesh",
-      spouse:"Tina",
+      name:"Son3",
+      spouse:"Spouse3",
       children:[
-        { name: "Tarun Alexx", gender: "male" },
-        { name: "Roshan Alexx", gender: "male" },
-        { name: "Reuben Alexx", gender: "male" }
+        { name: "Son1", gender: "male" },
+        { name: "Son2", gender: "male" },
+        { name: "Son3", gender: "male" }
       ]
     },
     {
-      name:"Renju",
-      spouse:"Deepa",
+      name:"Son4",
+      spouse:"Spouse",
       children:[
-        { name: "Rohan", gender: "male" },
-        { name: "Reshma", gender: "female" }
+        { name: "Son1", gender: "male" },
+        { name: "Daughter1", gender: "female" }
       ]
     }
   ]
