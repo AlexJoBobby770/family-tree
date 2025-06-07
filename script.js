@@ -53,7 +53,7 @@ function rerenderTree() {
   treeDiv.appendChild(renderPerson(familyTree));
 }
 
-document.getElementById("addBtn").addEventListener("click", addMember());
+document.getElementById("addBtn").addEventListener("click", addMember);
 
 
 function addMember() {
