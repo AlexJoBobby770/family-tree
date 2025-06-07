@@ -5,6 +5,11 @@ body {
   margin: 0;
   padding: 20px;
 }
+h1{
+  font-family: Arial, Helvetica ;
+  font-size: 50px;
+  color: #4A90E2 ;
+}
 
 #family-tree {
   display: flex;
@@ -38,3 +43,35 @@ body {
   gap: 20px;
   margin-top: 10px;
 }
+#databuttons input[type="text"], #databuttons select, #databuttons button {
+  padding: 10px 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  justify-content: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  width: 60%;
+  max-width: 250px;
+}
+
+#databuttons input[type="text"]:focus {
+  border-color: #4A90E2;
+  gap: 10px;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+  outline: none;
+}
+
+#databuttons button {
+  margin-top: 5px;
+  background-color: #4A90E2;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+#databuttons button:hover {
+  background-color: #1c6cd6;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
